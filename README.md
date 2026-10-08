@@ -1,28 +1,42 @@
 # AR Collections Copilot
 
-**Zion AI App Network — Batch 98: Fintech & Insurance AI**
+Part of the Zion AI App Network — finance operations discovery path.
 
-AR collections copilot — aging prediction, dunning sequencing, promise-to-pay tracking.
+## Current status — reviewed 2026-10-08
 
-- 🌐 Live app: https://ziontechgroup.com/ar-collections-copilot/
-- 🗂️ Network directory: https://ziontechgroup.com/zion-app-network/
-- 🔎 Free AI Discovery: https://ziontechgroup.com/discovery/
-- 🏠 Homepage: https://ziontechgroup.com
+This repository currently contains documentation, not an implemented collections engine. The public page describes a concept. Production readiness, ERP/banking integrations, SSO, RBAC, encryption, automated messaging and regulatory suitability have **not** been established here.
 
-## Key features
-- Production-ready AI workflow with human-in-the-loop review
-- API-first design — integrates with core banking, policy admin and ERP systems
-- Audit trail, explainability and regulator-ready reporting
-- Enterprise security: SSO, RBAC, encryption at rest and in transit
+The proposed scope is accounts-receivable review: aging analysis, follow-up planning and promise-to-pay tracking. Do not treat this page as legal advice, a credit decision, permission to contact debtors or approval to send collection messages automatically.
 
-## Batch 98 — Fintech & Insurance AI (interlinks)
-- [Fraud Transaction Monitor](https://ziontechgroup.com/fraud-transaction-monitor/) — [repo](https://github.com/Zion-support/fraud-transaction-monitor)
-- [Claims Automation AI](https://ziontechgroup.com/claims-automation-ai/) — [repo](https://github.com/Zion-support/claims-automation-ai)
-- [Underwriting Copilot AI](https://ziontechgroup.com/underwriting-copilot-ai/) — [repo](https://github.com/Zion-support/underwriting-copilot-ai)
-- [AML Screening AI](https://ziontechgroup.com/aml-screening-ai/) — [repo](https://github.com/Zion-support/aml-screening-ai)
-- [Cash Flow Forecaster](https://ziontechgroup.com/cash-flow-forecaster/) — [repo](https://github.com/Zion-support/cash-flow-forecaster)
-- [Policy Comparison AI](https://ziontechgroup.com/policy-comparison-ai/) — [repo](https://github.com/Zion-support/policy-comparison-ai)
+## A useful first pilot
 
-## About Zion Tech Group
-Zion Tech Group builds AI-powered IT services, field engineering and white-label AI Service Desk solutions worldwide.
-Get your free AI Discovery assessment: https://ziontechgroup.com/discovery/ — results delivered instantly to you and our commercial team.
+1. Identify the receivables owner, applicable rules and the approved communication process.
+2. Use synthetic or de-identified invoice records and reconcile amounts against a baseline.
+3. Define aging buckets, exceptions and human review before any follow-up.
+4. Measure reconciliation accuracy and exception handling, not just response rate.
+5. Stop on disputed invoices, inconsistent balances or missing permission. No automated external contact.
+
+## Proposed capabilities, not implemented guarantees
+
+- Human-reviewed aging and follow-up planning.
+- Promise-to-pay records with explicit assumptions and audit evidence.
+- Integration and security requirements to be specified, implemented and tested before deployment.
+
+## Interlinked network
+
+- [Concept page](https://ziontechgroup.com/ar-collections-copilot/)
+- [Cash Flow Forecaster](https://ziontechgroup.com/cash-flow-forecaster/) — [source](https://github.com/Zion-support/cash-flow-forecaster)
+- [AML Screening AI](https://ziontechgroup.com/aml-screening-ai/) — [source](https://github.com/Zion-support/aml-screening-ai)
+- [Fraud Transaction Monitor](https://ziontechgroup.com/fraud-transaction-monitor/) — [source](https://github.com/Zion-support/fraud-transaction-monitor)
+- [Claims Automation AI](https://ziontechgroup.com/claims-automation-ai/)
+- [Underwriting Copilot AI](https://ziontechgroup.com/underwriting-copilot-ai/)
+- [Policy Comparison AI](https://ziontechgroup.com/policy-comparison-ai/)
+- [Full App Network](https://ziontechgroup.com/zion-app-network/) · [Network map](https://ziontechgroup.com/apps/network.html)
+- [Workflow guide](https://ziontechgroup.com/apps/discovery-workflow-paths.html) · [Free Discovery benefits](https://ziontechgroup.com/apps/discovery-benefits.html)
+- [Homepage](https://ziontechgroup.com/)
+
+## Free Discovery
+
+[Discovery](https://ziontechgroup.com/discovery/) stays free and online. The report appears immediately on-page and is submitted for email delivery to the validated client address and commercial@ziontechgroup.com. Inbox delivery is not independently verified; copy/download/manual fallback remain available. Paid implementation is optional and separate.
+
+Guide translations: [English](https://ziontechgroup.com/apps/discovery-workflow-paths.html) · [Português](https://ziontechgroup.com/pt/apps/discovery-workflow-paths.html) · [Español](https://ziontechgroup.com/es/apps/discovery-workflow-paths.html) · [Français](https://ziontechgroup.com/fr/apps/discovery-workflow-paths.html) · [Deutsch](https://ziontechgroup.com/de/apps/discovery-workflow-paths.html).
